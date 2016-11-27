@@ -1,0 +1,10 @@
+{
+  "description": "fullPageAboutMe",
+  "repository": {
+  },
+  "authors": [
+    "Alvaro Trigo (fullPage.js plugin) https://github.com/alvarotrigo",
+    "Matt Jacobson - site"
+  ],
+  "license": "MIT"
+}
