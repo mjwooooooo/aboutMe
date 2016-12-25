@@ -9,7 +9,6 @@
 	<meta name="keywords"  content="" />
 	<meta name="Resource-type" content="Document" />
 
-	<!--<link rel="stylesheet" type="text/css" href='node_modules/fullpage.js/dist/jquery.fullPage.css' />-->
 	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
@@ -30,7 +29,6 @@
 		font-size: 5em;
 		text-align: center;
     	font-family: 'Abril Fatface', cursive;
-		margin:0;
 		padding:0;
 	}
 
@@ -58,10 +56,10 @@
 		background-size: cover; 
 		background-image: url(imgs/mirror-light-black-glass.jpg); 
 		background-repeat: no-repeat;
+		position: relative;
 		opacity: 1.0;     
 	}
 	#section0 h1{
-		/*color: #BDBDBD;*/
 		color: #F5F5F5;
 		font-size: 5em;
 		text-align: center;
@@ -78,6 +76,7 @@
 	#section1{
 		background-color: #FF533D;
 		background-image: url(imgs/cup-of-coffee-laptop-office-macbook-89786.jpeg);
+		position: relative;
 		padding: 0% 0 0 0;
 	}
 	#section1 h1{
@@ -97,8 +96,8 @@
 	/* --------------------------------------- */
 	#section2{
 		background-color: #F5F5F5;
-		/*background-attachment: scroll;*/
 		background-image: url(imgs/milwaukeeDrillCrop.svg);
+		position: relative;
 		padding: 0% 0 0 0;
 	}
 	/* --------------------------------------- */
@@ -116,6 +115,7 @@
 		background-image: url(imgs/Collage_edited.jpg);
 		background-size: contain; 
 		background-repeat: repeat;
+		position: relative;
 		padding: 0% 0 0 0;
 	}
 	#section4 h1{
@@ -219,7 +219,6 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-	<!--<script type="text/javascript" src='node_modules/fullpage.js/dist/jquery.fullpage.js'></script>-->
 	<script type="text/javascript" src="jquery.fullpage.js"></script>
 
 	<script type="text/javascript">
@@ -230,6 +229,7 @@
 				navigation: true,
 				navigationPosition: 'right',
 				navigationColor: '#FF533D',
+				scrollOverflow:false,
 				css3:false
 			});
 		});
