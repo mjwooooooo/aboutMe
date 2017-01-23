@@ -1,0 +1,304 @@
+/* Color scheme for site
+---------------------------------------
+Navy Blue #0F1626
+Leather #AB987A
+Coral #FF533D
+Eggshell #F5F5F5
+---------------------------------------
+*/
+body { margin:0; }
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+#section0,
+#section1,
+#section2,
+#section3,
+#section4,{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Defining each section background and styles
+/* --------------------------------------- */
+#section0 {
+    background-color: #9E9E9E; 
+    position: relative;
+    opacity: 1.0;     
+}
+#section0 h1{
+    font-size: 4em;
+    text-align: center;
+    color: #1B1C1C;
+    font-family: 'Abril Fatface', cursive;
+    position: relative;
+    top: 1%;
+    margin-bottom: 10;
+}
+#section0 p{
+    color: #1B1C1C;
+    opacity: 1.0;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#section0 hr.titleLine{
+    margin-top: 1%;
+    margin-bottom: 0%;
+    color: #1B1C1C;
+    size: 1%;
+    width: 60%;
+  }
+/* --------------------------------------- */
+#section1{
+    background-image: url(imgs/coffeeComputer.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 0% 0 0 0;
+}
+#section1 h1{
+    color: #BDBDBD;
+    font-size: 4em;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 0;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+#section1 p{
+    color: #BDBDBD;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    opacity:0.8;
+    padding-right: 50px;   
+    padding-left: 100px;
+}
+#section1 p1{
+    color: #FF5733;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    opacity:0.8;
+    padding-right: 50px;   
+    padding-left: 100px;
+}
+#section1 hr.titleLine{
+    margin-top: 1%;
+    margin-bottom: 0%;
+    color: #FF5733;
+    size: 1%;
+    width: 65%;
+    padding-left: 100px;
+  }
+
+/* --------------------------------------- */
+#section2{
+    background-color: #F5F5F5;
+    background-image: url(imgs/milwaukeeDrillBlackWhite.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 0% 0 0 0;
+}
+#section2 h1{
+    color: #BDBDBD;
+    font-size: 4em;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 0;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+#section2 p{
+    color: #BDBDBD;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    opacity:0.8;
+    padding-right: 50px;   
+    padding-left: 100px;
+}
+#section2 p1{
+    color: #FF5733;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    opacity:0.8;
+    padding-right: 50px;   
+    padding-left: 100px;
+}
+#section2 hr.titleLine{
+    margin-top: 1%;
+    margin-bottom: 0%;
+    color: #FF5733;
+    size: 1%;
+    width: 65%;
+    padding-left: 100px;
+  }
+/* --------------------------------------- */
+#section3{
+    background-color: #0F1626;
+    background-image: url(imgs/crashTest_edited.jpg);
+    background-size: cover;
+    padding: 0% 0 0 0;
+}
+#section3 h1{
+    color: #BDBDBD;
+    font-size: 4em;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 0;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+#section3 p{
+    color: #BDBDBD;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    opacity:0.8;
+    padding-right: 50px;   
+    padding-left: 100px;
+}
+#section3 p1{
+    color: #FF5733;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    opacity:0.8;
+    padding-right: 50px;   
+    padding-left: 100px;
+}
+#section3 hr.titleLine{
+    margin-top: 1%;
+    margin-bottom: 0%;
+    color: #FF5733;
+    size: 1%;
+    width: 65%;
+    padding-left: 100px;
+  }
+/* --------------------------------------- */
+#section4{
+    background-color: #000000;
+    background-image: url(imgs/Collage_edited.jpg);
+    background-size: contain; 
+    background-repeat: repeat;
+    position: relative;
+    padding: 0% 0 0 0;
+}
+#section4 h1{
+    color: #BDBDBD;
+    font-size: 4em;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 0;
+    padding-right: 75px;
+    padding-left: 100px;
+}
+#section4 p{
+    color: #BDBDBD;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    opacity:0.8;
+    padding-right: 75px;   
+    padding-left: 100px;
+}
+#section4 p1{
+    color: #FF5733;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    opacity:0.8;
+    padding-right: 75px;   
+    padding-left: 100px;
+}
+#section4 hr.titleLine{
+    margin-top: 1%;
+    margin-bottom: 0%;
+    color: #FF5733;
+    size: 1%;
+    width: 65%;
+    padding-left: 100px;
+  }
+/* --------------------------------------- */
+
+.rightSideTextBlock{
+    height: 100%;
+    width: 60%;
+    background: #424949;
+    opacity:0.95;
+    position: absolute;
+    top: 0%;
+    left: 40%;   
+}
+.container{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: left;
+    padding: 40% 0 0 0;
+}
+.largeTitle{
+    color: #BDBDBD;
+    font-size: 4em;
+    font-family: 'Abril Fatface', cursive;
+    white-space: nowrap;
+}
+.positionTitle{
+    color: #FF533D;
+    font-size: 1.6em;
+    font-family: 'Dosis', sans-serif;
+    white-space: nowrap;
+}
+.jobDetails{
+    color: #BDBDBD;
+    font-size: 1.5em;
+    font-family: 'Dosis', sans-serif;
+    white-space: nowrap;
+}
+.techDetails{
+    color: #BDBDBD;
+    white-space: nowrap;
+    padding-left: 100px;
+}
+.linkOne{
+    position: absolute;
+    top: 92%;
+    left: 15%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    opacity:0.9;	
+}
+.linkTwo{
+    position: absolute;
+    top: 92%;
+    left: 23%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    opacity:0.9;	
+}
+.linkThree{
+    position: absolute;
+    top: 92%;
+    left: 31%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    opacity:0.9;	
+}
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
